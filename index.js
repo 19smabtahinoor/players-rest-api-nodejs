@@ -62,18 +62,6 @@ app.delete('/api/players/:id' , (req, res) => {
     res.send(player);
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
 //create server 
 const port = process.env.PORT || 3000
 app.listen(port, console.log(`Server listening on http://localhost:${port}`))
